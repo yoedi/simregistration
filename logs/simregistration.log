@@ -1,0 +1,1442 @@
+2021-05-13 01:21:40,875 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:21:40,880 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:21:40,881 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-05-13 01:21:40,895 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 01:21:40,905 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 01:21:57,785 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 49438 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 01:21:57,806 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 01:21:57,789 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 01:22:00,346 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 01:22:00,460 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+2021-05-13 01:22:02,091 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 01:22:02,127 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:22:02,129 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 01:22:02,131 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 01:22:02,351 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 01:22:02,353 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4188 ms
+2021-05-13 01:22:02,800 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 01:22:02,889 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 01:22:03,246 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 01:22:03,584 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 01:22:03,834 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 01:22:03,893 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 01:22:05,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:22:05,549 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "registration" does not exist, skipping
+2021-05-13 01:22:05,551 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:22:05,551 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] sequence "hibernate_sequence" does not exist, skipping
+2021-05-13 01:22:05,580 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 01:22:05,598 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:22:06,524 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 01:22:06,814 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:22:07,281 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:22:07,320 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 01:22:07,337 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 12.31 seconds (JVM running for 14.294)
+2021-05-13 01:24:22,274 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 01:24:22,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-13 01:24:22,281 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-05-13 01:24:22,694 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 01:24:22,700 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 01:24:22,722 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 01:25:41,254 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-5] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 01:25:41,257 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-5] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 01:25:41,259 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-5] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 01:25:41,277 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 0, SQLState: 23505
+2021-05-13 01:25:41,277 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-5] ERROR: duplicate key value violates unique constraint "uk_45t1j4ourxgjk3parje40nnrd"
+  Detail: Key (msisdn)=(+6282100998876) already exists.
+2021-05-13 01:27:16,545 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-9] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 01:27:16,547 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-9] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 01:27:16,550 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-9] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 01:49:24,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:49:24,540 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:49:24,541 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-05-13 01:49:24,560 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 01:49:24,580 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 01:49:37,684 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 51255 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 01:49:37,692 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 01:49:37,757 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 01:49:42,013 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 01:49:42,154 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interfaces.
+2021-05-13 01:49:43,396 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 01:49:43,418 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:49:43,420 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 01:49:43,421 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 01:49:43,578 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 01:49:43,579 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5638 ms
+2021-05-13 01:49:43,873 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 01:49:43,999 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 01:49:44,266 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 01:49:44,526 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 01:49:44,738 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 01:49:44,783 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 01:49:45,972 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:49:45,973 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "registration" does not exist, skipping
+2021-05-13 01:49:45,974 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:49:45,974 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] sequence "hibernate_sequence" does not exist, skipping
+2021-05-13 01:49:46,002 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 01:49:46,014 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:49:46,638 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 01:49:46,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:49:47,563 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:49:47,598 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 01:49:47,617 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 11.47 seconds (JVM running for 13.194)
+2021-05-13 01:50:14,616 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 01:50:14,616 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-13 01:50:14,618 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-05-13 01:50:15,026 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Already registered
+2021-05-13 01:50:15,032 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Already registered
+2021-05-13 01:50:15,035 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Already registered
+2021-05-13 01:51:36,998 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:51:37,000 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:51:37,000 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-05-13 01:51:37,008 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 01:51:37,022 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 01:52:00,114 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 51564 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 01:52:00,114 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 01:52:00,127 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 01:52:02,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 01:52:02,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2021-05-13 01:52:03,352 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 01:52:03,369 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:52:03,370 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 01:52:03,370 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 01:52:03,489 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 01:52:03,490 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3163 ms
+2021-05-13 01:52:03,838 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 01:52:03,974 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 01:52:04,203 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 01:52:04,384 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 01:52:04,532 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 01:52:04,556 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 01:52:05,627 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:52:05,628 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "registration" does not exist, skipping
+2021-05-13 01:52:05,631 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2021-05-13 01:52:05,631 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] sequence "hibernate_sequence" does not exist, skipping
+2021-05-13 01:52:05,663 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 01:52:05,677 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 01:52:06,425 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 01:52:06,625 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 01:52:07,093 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 01:52:07,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 01:52:07,138 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.606 seconds (JVM running for 9.736)
+2021-05-13 01:52:34,492 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 01:52:34,494 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 01:52:34,497 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 01:52:34,960 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 01:52:34,967 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 01:52:34,978 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 01:53:07,386 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Already registered
+2021-05-13 01:53:07,390 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Already registered
+2021-05-13 01:53:07,394 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Already registered
+2021-05-13 03:16:26,233 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 58799 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:16:26,248 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:16:26,361 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:16:29,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:16:29,575 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:16:31,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:16:31,467 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:16:31,470 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:16:31,473 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:16:31,744 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:16:31,745 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5025 ms
+2021-05-13 03:16:32,643 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:16:33,016 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:16:33,588 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:16:34,014 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:16:34,298 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:16:34,349 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:16:36,142 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:16:36,165 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:16:37,835 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:16:38,372 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:16:39,366 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:16:39,387 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-05-13 03:16:39,392 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:16:39,402 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:16:39,409 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:16:39,455 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-05-13 03:16:39,461 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:16:39,466 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:16:39,486 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:16:39,489 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:16:39,528 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:16:39,634 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-05-13 03:22:57,949 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 60124 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:22:57,980 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:22:57,986 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:23:01,959 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:23:01,980 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:23:01,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:23:01,982 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:23:02,110 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:23:02,111 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3855 ms
+2021-05-13 03:23:02,444 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through field 'registrationRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-13 03:23:02,455 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:23:02,520 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:23:02,586 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registrationRepository in com.mobiletechnologies.simregistration.controller.RegistrationController required a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' in your configuration.
+
+2021-05-13 03:24:47,934 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:24:47,944 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 60363 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:24:47,967 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:24:50,174 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:24:50,192 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:24:50,193 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:24:50,194 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:24:50,316 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:24:50,317 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2145 ms
+2021-05-13 03:24:50,413 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through field 'registrationRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-13 03:24:50,418 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:24:50,451 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:24:50,479 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registrationRepository in com.mobiletechnologies.simregistration.controller.RegistrationController required a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' in your configuration.
+
+2021-05-13 03:25:22,928 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:25:23,097 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 60509 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:25:23,112 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:25:25,983 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:25:26,006 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:25:26,008 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:25:26,010 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:25:26,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:25:26,212 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2904 ms
+2021-05-13 03:25:26,412 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through field 'registrationRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-13 03:25:26,430 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:25:26,499 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:25:26,571 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registrationRepository in com.mobiletechnologies.simregistration.controller.RegistrationController required a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' in your configuration.
+
+2021-05-13 03:27:08,214 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:27:08,215 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:27:08,216 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-05-13 03:27:08,226 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6cf94349 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,228 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7c2f9e8f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,229 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@61636ba9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,231 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@47a69fc7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,232 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5c5ef032 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,234 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5c85d6d0 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,236 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2641d0ca (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,237 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@55ea2b62 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,239 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7e1e8e8d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:27:08,243 WARN com.zaxxer.hikari.pool.PoolBase [SpringContextShutdownHook] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@cdff4c8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-13 03:31:44,613 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:31:44,701 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 4639 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:31:44,725 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:31:48,068 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:31:48,106 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:31:48,111 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:31:48,113 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:31:48,383 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:31:48,384 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3500 ms
+2021-05-13 03:31:48,571 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through field 'registrationRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-13 03:31:48,591 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:31:48,703 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:31:48,777 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registrationRepository in com.mobiletechnologies.simregistration.controller.RegistrationController required a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' in your configuration.
+
+2021-05-13 03:32:39,029 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:32:39,077 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 5355 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:32:39,082 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:32:41,821 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:32:41,842 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:32:41,844 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:32:41,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:32:41,977 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:32:41,978 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2700 ms
+2021-05-13 03:32:42,122 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through field 'registrationRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-13 03:32:42,141 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-13 03:32:42,198 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-13 03:32:42,258 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registrationRepository in com.mobiletechnologies.simregistration.controller.RegistrationController required a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mobiletechnologies.simregistration.repository.RegistrationRepository' in your configuration.
+
+2021-05-13 03:36:25,753 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:36:25,782 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 5979 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:36:25,803 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:36:27,477 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:36:27,602 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:36:28,740 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:36:28,762 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:36:28,763 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:36:28,764 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:36:28,923 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:36:28,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2892 ms
+2021-05-13 03:36:29,313 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:36:29,397 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:36:29,594 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:36:29,754 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:36:29,930 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:36:29,958 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:36:31,064 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:36:31,078 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:36:31,861 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:36:32,020 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:36:32,433 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:36:32,460 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:36:32,477 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.319 seconds (JVM running for 9.927)
+2021-05-13 03:37:50,310 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:37:50,315 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:37:50,322 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:37:50,347 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:37:59,647 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:37:59,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 6243 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:37:59,677 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:38:01,207 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:38:01,301 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:38:02,372 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:38:02,393 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:38:02,395 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:38:02,396 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:38:02,558 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:38:02,559 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2720 ms
+2021-05-13 03:38:02,888 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:38:02,968 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:38:03,176 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:38:03,355 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:38:03,515 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:38:03,544 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:38:04,607 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:38:04,616 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:38:05,489 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:38:05,693 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:38:06,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:38:06,216 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:38:06,235 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.135 seconds (JVM running for 9.463)
+2021-05-13 03:38:10,850 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:38:10,852 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:38:10,859 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:38:10,887 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:38:25,342 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:38:25,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 6380 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:38:25,507 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:38:27,686 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:38:27,771 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:38:28,857 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:38:28,878 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:38:28,881 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:38:28,882 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:38:29,010 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:38:29,011 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3250 ms
+2021-05-13 03:38:29,463 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:38:29,574 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:38:29,789 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:38:29,971 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:38:30,121 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:38:30,148 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:38:31,208 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:38:31,222 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:38:32,112 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:38:32,327 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:38:32,806 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:38:32,868 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:38:32,887 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 9.249 seconds (JVM running for 10.325)
+2021-05-13 03:40:05,972 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:40:05,973 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:40:05,976 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 03:41:25,104 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:41:25,106 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:41:25,110 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:41:25,124 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:41:43,644 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:41:43,653 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 6871 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:41:43,656 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:41:45,293 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:41:45,404 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:41:46,943 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:41:46,961 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:41:46,962 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:41:46,964 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:41:47,089 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:41:47,092 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3253 ms
+2021-05-13 03:41:47,404 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:41:47,463 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:41:47,661 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:41:47,820 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:41:47,971 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:41:48,000 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:41:49,024 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:41:49,036 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:41:49,852 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:41:50,059 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:41:50,546 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:41:50,575 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:41:50,593 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.395 seconds (JVM running for 9.632)
+2021-05-13 03:42:15,823 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:42:15,823 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:42:15,826 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2021-05-13 03:42:37,651 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:42:37,653 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:42:37,657 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:42:37,676 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:43:05,568 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:43:05,583 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 7169 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:43:05,600 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:43:07,332 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:43:07,448 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:43:08,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:43:08,524 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:43:08,526 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:43:08,527 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:43:08,655 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:43:08,656 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2829 ms
+2021-05-13 03:43:09,018 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:43:09,125 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:43:09,341 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:43:09,513 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:43:09,694 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:43:09,721 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:43:10,869 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:43:10,884 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:43:11,764 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:43:11,960 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:43:12,371 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:43:12,498 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:43:12,515 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.593 seconds (JVM running for 9.605)
+2021-05-13 03:43:29,509 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:43:29,510 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:43:29,513 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 03:43:47,281 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:43:47,283 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:43:47,286 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:43:47,300 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:43:56,892 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:43:56,945 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 7321 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:43:56,975 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:43:58,766 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:43:58,868 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:43:59,917 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:43:59,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:43:59,939 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:43:59,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:44:00,074 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:44:00,075 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2856 ms
+2021-05-13 03:44:00,465 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:44:00,540 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:44:00,743 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:44:00,900 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:44:01,048 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:44:01,076 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:44:02,054 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:44:02,063 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:44:02,885 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:44:03,083 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:44:03,468 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:44:03,515 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:44:03,532 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.095 seconds (JVM running for 9.251)
+2021-05-13 03:44:20,638 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:44:20,639 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:44:20,642 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 03:45:28,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:45:28,745 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:45:28,748 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:45:28,760 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:45:38,910 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 7528 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:45:38,925 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:45:38,948 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:45:40,649 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:45:40,765 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:45:41,998 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:45:42,021 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:45:42,023 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:45:42,024 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:45:42,190 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:45:42,191 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3094 ms
+2021-05-13 03:45:42,620 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:45:42,704 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:45:42,967 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:45:43,188 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:45:43,375 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:45:43,423 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:45:44,516 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:45:44,531 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:45:45,383 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:45:45,563 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:45:45,963 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:45:46,014 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:45:46,036 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.441 seconds (JVM running for 11.042)
+2021-05-13 03:45:52,852 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:45:52,853 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:45:52,856 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 03:48:26,729 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:48:26,731 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:48:26,736 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:48:26,752 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:48:37,578 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 7877 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:48:37,589 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:48:37,653 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:48:39,320 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:48:39,437 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:48:40,624 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:48:40,644 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:48:40,646 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:48:40,646 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:48:40,799 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:48:40,800 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2971 ms
+2021-05-13 03:48:41,182 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:48:41,272 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:48:41,521 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:48:41,736 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:48:41,922 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:48:41,955 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:48:43,225 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:48:43,242 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:48:44,226 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:48:44,435 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:48:44,891 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:48:44,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:48:44,947 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 9.147 seconds (JVM running for 10.657)
+2021-05-13 03:48:52,895 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:48:52,896 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:48:52,899 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-05-13 03:49:08,257 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-1] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 03:49:08,433 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-1] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37241-1620852548287-0:1) is starting
+2021-05-13 03:49:08,441 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-1] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37241-1620852548287-0:1) started
+2021-05-13 03:49:08,442 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-1] For help or more information please see: http://activemq.apache.org
+2021-05-13 03:49:08,487 INFO org.apache.activemq.broker.TransportConnector [http-nio-8080-exec-1] Connector vm://localhost started
+2021-05-13 03:49:08,677 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 03:49:08,689 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 03:49:08,700 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-1] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 03:52:19,915 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37241-1620852548287-0:1) is shutting down
+2021-05-13 03:52:19,924 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:52:19,936 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 03:52:19,939 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:52:19,962 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37241-1620852548287-0:1) uptime 3 minutes
+2021-05-13 03:52:19,962 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37241-1620852548287-0:1) is shutdown
+2021-05-13 03:52:19,966 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:52:19,975 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:52:19,978 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:52:19,990 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:52:47,943 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 8664 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:52:47,958 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:52:48,096 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:52:49,899 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:52:49,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:52:50,999 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:52:51,021 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:52:51,022 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:52:51,023 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:52:51,154 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:52:51,155 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3029 ms
+2021-05-13 03:52:51,484 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:52:51,558 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:52:51,763 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:52:51,928 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:52:52,092 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:52:52,122 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:52:53,209 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:52:53,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:52:54,173 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:52:54,368 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:52:54,794 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:52:54,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:52:54,856 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.159 seconds (JVM running for 9.727)
+2021-05-13 03:53:07,990 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:53:07,990 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:53:07,993 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-05-13 03:53:08,616 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 03:53:08,772 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-40327-1620852788637-0:1) is starting
+2021-05-13 03:53:08,778 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-40327-1620852788637-0:1) started
+2021-05-13 03:53:08,778 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] For help or more information please see: http://activemq.apache.org
+2021-05-13 03:53:08,814 INFO org.apache.activemq.broker.TransportConnector [http-nio-8080-exec-2] Connector vm://localhost started
+2021-05-13 03:53:08,944 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 03:53:08,958 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 03:53:08,969 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 03:54:52,091 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-40327-1620852788637-0:1) is shutting down
+2021-05-13 03:54:52,113 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:54:52,120 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:54:52,122 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 03:54:52,139 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-40327-1620852788637-0:1) uptime 1 minute
+2021-05-13 03:54:52,140 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-40327-1620852788637-0:1) is shutdown
+2021-05-13 03:54:52,147 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:54:52,149 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:54:52,152 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:54:52,168 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:55:25,480 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:55:25,608 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 8928 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:55:25,621 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 03:55:27,355 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 03:55:27,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2021-05-13 03:55:28,608 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 03:55:28,629 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:55:28,630 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 03:55:28,631 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 03:55:28,764 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 03:55:28,765 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2959 ms
+2021-05-13 03:55:29,172 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 03:55:29,257 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 03:55:29,461 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 03:55:29,623 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 03:55:29,768 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 03:55:29,788 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 03:55:30,850 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 03:55:30,865 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:55:31,755 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 03:55:31,972 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:55:32,444 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 03:55:32,474 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 03:55:32,666 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 03:55:32,817 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38625-1620852932687-0:1) is starting
+2021-05-13 03:55:32,823 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38625-1620852932687-0:1) started
+2021-05-13 03:55:32,824 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 03:55:32,859 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 03:55:32,967 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.898 seconds (JVM running for 10.122)
+2021-05-13 03:55:47,920 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 03:55:47,921 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-05-13 03:55:47,923 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2021-05-13 03:55:48,318 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 03:55:48,324 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998876 | Your number has been registered.
+2021-05-13 03:55:48,335 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 03:55:48,343 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998878 | Your number has been registered.
+2021-05-13 03:55:48,369 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998879 | Your number has been registered.
+2021-05-13 03:55:48,368 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 03:59:16,537 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38625-1620852932687-0:1) is shutting down
+2021-05-13 03:59:16,559 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:59:16,564 WARN org.springframework.jms.listener.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Setup of JMS message listener invoker failed for destination 'MSGREGISTERED' - trying to recover. Cause: The Session is closed
+2021-05-13 03:59:16,592 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 03:59:16,599 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 03:59:16,614 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38625-1620852932687-0:1) uptime 3 minutes
+2021-05-13 03:59:16,615 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38625-1620852932687-0:1) is shutdown
+2021-05-13 03:59:16,623 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 03:59:16,628 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 03:59:16,633 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 03:59:16,687 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 03:59:59,610 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 9520 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 03:59:59,610 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 03:59:59,623 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 04:00:01,856 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 04:00:01,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2021-05-13 04:00:03,439 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 04:00:03,478 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:00:03,480 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 04:00:03,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 04:00:03,630 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 04:00:03,631 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3784 ms
+2021-05-13 04:00:04,088 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 04:00:04,256 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 04:00:04,513 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 04:00:04,751 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 04:00:04,939 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 04:00:04,975 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 04:00:06,360 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 04:00:06,373 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:00:07,460 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 04:00:07,677 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:00:08,142 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:00:08,176 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 04:00:08,196 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 10.694 seconds (JVM running for 12.871)
+2021-05-13 04:01:52,199 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 04:01:52,200 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 04:01:52,204 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2021-05-13 04:01:52,844 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 04:01:53,016 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-41925-1620853312869-0:1) is starting
+2021-05-13 04:01:53,024 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-41925-1620853312869-0:1) started
+2021-05-13 04:01:53,024 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] For help or more information please see: http://activemq.apache.org
+2021-05-13 04:01:53,068 INFO org.apache.activemq.broker.TransportConnector [http-nio-8080-exec-2] Connector vm://localhost started
+2021-05-13 04:01:53,287 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:01:53,302 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:01:53,316 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:02:37,490 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:02:37,502 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:02:37,511 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:04:00,809 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-6] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Already registered
+2021-05-13 04:04:00,814 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-6] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Already registered
+2021-05-13 04:04:00,817 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-6] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Already registered
+2021-05-13 04:04:19,000 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-7] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:04:19,020 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-7] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:04:19,041 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-7] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:05:54,125 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-10] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:05:54,135 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-10] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:05:54,151 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-10] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:07:36,471 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-41925-1620853312869-0:1) is shutting down
+2021-05-13 04:07:36,501 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:07:36,510 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 04:07:36,513 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:07:36,522 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-41925-1620853312869-0:1) uptime 5 minutes
+2021-05-13 04:07:36,522 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-41925-1620853312869-0:1) is shutdown
+2021-05-13 04:07:36,524 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:07:36,526 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:07:36,528 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 04:07:36,540 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 04:08:00,712 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 10263 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 04:08:00,729 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 04:08:00,728 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 04:08:02,496 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 04:08:02,587 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2021-05-13 04:08:03,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 04:08:03,665 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:08:03,666 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 04:08:03,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 04:08:03,793 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 04:08:03,794 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2877 ms
+2021-05-13 04:08:04,081 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 04:08:04,156 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 04:08:04,303 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 04:08:04,426 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 04:08:04,548 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 04:08:04,572 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 04:08:05,591 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 04:08:05,603 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:08:06,502 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 04:08:06,706 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:08:07,098 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:08:07,127 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 04:08:07,145 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 7.999 seconds (JVM running for 9.135)
+2021-05-13 04:08:26,235 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 04:08:26,236 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 04:08:26,238 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 04:08:26,844 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 04:08:26,999 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37755-1620853706870-0:1) is starting
+2021-05-13 04:08:27,005 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37755-1620853706870-0:1) started
+2021-05-13 04:08:27,006 INFO org.apache.activemq.broker.BrokerService [http-nio-8080-exec-2] For help or more information please see: http://activemq.apache.org
+2021-05-13 04:08:27,037 INFO org.apache.activemq.broker.TransportConnector [http-nio-8080-exec-2] Connector vm://localhost started
+2021-05-13 04:08:27,175 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:08:27,186 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:08:27,195 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:10:33,706 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37755-1620853706870-0:1) is shutting down
+2021-05-13 04:10:33,715 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:10:33,720 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 04:10:33,721 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:10:33,729 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37755-1620853706870-0:1) uptime 2 minutes
+2021-05-13 04:10:33,730 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-37755-1620853706870-0:1) is shutdown
+2021-05-13 04:10:33,737 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:10:33,739 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:10:33,742 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 04:10:33,754 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 04:10:41,885 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 04:10:41,956 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 10546 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 04:10:42,008 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 04:10:43,843 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 04:10:43,935 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2021-05-13 04:10:45,150 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 04:10:45,172 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:10:45,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 04:10:45,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 04:10:45,308 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 04:10:45,310 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3139 ms
+2021-05-13 04:10:45,659 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 04:10:45,771 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 04:10:45,981 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 04:10:46,140 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 04:10:46,276 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 04:10:46,303 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 04:10:47,450 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 04:10:47,463 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:10:48,259 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 04:10:48,420 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:10:48,774 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:10:48,805 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 04:10:48,969 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 04:10:49,121 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44639-1620853848990-0:1) is starting
+2021-05-13 04:10:49,126 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44639-1620853848990-0:1) started
+2021-05-13 04:10:49,127 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 04:10:49,151 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 04:10:49,205 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.895 seconds (JVM running for 10.336)
+2021-05-13 04:11:07,325 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 04:11:07,329 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 04:11:07,332 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 04:11:07,681 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Already registered
+2021-05-13 04:11:07,685 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Already registered
+2021-05-13 04:11:07,689 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Already registered
+2021-05-13 04:11:17,752 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:11:17,761 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998876 | Your number has been registered.
+2021-05-13 04:11:17,763 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:11:17,781 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998878 | Your number has been registered.
+2021-05-13 04:11:17,801 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998879 | Your number has been registered.
+2021-05-13 04:11:17,801 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-3] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:11:41,497 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44639-1620853848990-0:1) is shutting down
+2021-05-13 04:11:41,508 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:11:41,518 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 04:11:41,521 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:11:41,529 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44639-1620853848990-0:1) uptime 52.681 seconds
+2021-05-13 04:11:41,529 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44639-1620853848990-0:1) is shutdown
+2021-05-13 04:11:41,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:11:41,540 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:11:41,543 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 04:11:41,556 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 04:11:50,258 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 04:11:50,392 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 10738 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 04:11:50,414 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 04:11:52,223 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 04:11:52,315 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2021-05-13 04:11:53,383 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 04:11:53,404 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:11:53,406 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 04:11:53,406 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 04:11:53,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 04:11:53,535 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2949 ms
+2021-05-13 04:11:53,861 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 04:11:53,958 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 04:11:54,164 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 04:11:54,321 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 04:11:54,458 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 04:11:54,481 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 04:11:55,559 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 04:11:55,570 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:11:56,404 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 04:11:56,602 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:11:57,059 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 04:11:57,091 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 04:11:57,259 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 04:11:57,420 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-45371-1620853917282-0:1) is starting
+2021-05-13 04:11:57,428 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-45371-1620853917282-0:1) started
+2021-05-13 04:11:57,429 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 04:11:57,472 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 04:11:57,565 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.759 seconds (JVM running for 9.804)
+2021-05-13 04:13:18,302 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 04:13:18,309 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 04:13:18,312 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 04:13:18,805 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 04:13:18,817 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 04:13:18,832 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 04:14:32,442 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-45371-1620853917282-0:1) is shutting down
+2021-05-13 04:14:32,465 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:14:32,479 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 04:14:32,481 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 04:14:32,490 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-45371-1620853917282-0:1) uptime 2 minutes
+2021-05-13 04:14:32,491 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-45371-1620853917282-0:1) is shutdown
+2021-05-13 04:14:32,504 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 04:14:32,507 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 04:14:32,510 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 04:14:32,520 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 05:13:27,878 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 05:13:27,929 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 13546 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 05:13:27,935 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 05:13:29,737 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 05:13:29,838 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2021-05-13 05:13:30,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2021-05-13 05:13:30,946 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2021-05-13 05:13:30,948 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 05:13:30,949 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 05:13:31,079 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 05:13:31,080 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2839 ms
+2021-05-13 05:13:31,384 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 05:13:31,459 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 05:13:31,624 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 05:13:31,749 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 05:13:31,866 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 05:13:31,887 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 05:13:32,766 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 05:13:32,778 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:13:33,523 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 05:13:33,697 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:13:34,128 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2021-05-13 05:13:34,173 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2021-05-13 05:13:34,373 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 05:13:34,536 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-46693-1620857614394-0:1) is starting
+2021-05-13 05:13:34,544 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-46693-1620857614394-0:1) started
+2021-05-13 05:13:34,545 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 05:13:34,582 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 05:13:34,676 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.18 seconds (JVM running for 9.377)
+2021-05-13 05:14:23,676 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-46693-1620857614394-0:1) is shutting down
+2021-05-13 05:14:23,687 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 05:14:23,696 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 05:14:23,697 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 05:14:23,704 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-46693-1620857614394-0:1) uptime 49.476 seconds
+2021-05-13 05:14:23,705 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-46693-1620857614394-0:1) is shutdown
+2021-05-13 05:14:23,723 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:14:23,726 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:14:23,729 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 05:14:23,750 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 05:14:50,975 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 05:14:51,008 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 13727 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 05:14:51,026 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 05:14:52,714 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 05:14:52,807 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2021-05-13 05:14:53,867 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2021-05-13 05:14:53,891 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2021-05-13 05:14:53,892 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 05:14:53,893 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 05:14:54,037 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 05:14:54,038 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2767 ms
+2021-05-13 05:14:54,385 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 05:14:54,458 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 05:14:54,625 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 05:14:54,773 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 05:14:54,894 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 05:14:54,914 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 05:14:55,787 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 05:14:55,799 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:14:56,793 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 05:14:57,048 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:14:57,826 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2021-05-13 05:14:57,979 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2021-05-13 05:14:58,455 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 05:14:58,617 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38491-1620857698479-0:1) is starting
+2021-05-13 05:14:58,625 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38491-1620857698479-0:1) started
+2021-05-13 05:14:58,626 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 05:14:58,665 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 05:14:58,776 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 9.328 seconds (JVM running for 10.625)
+2021-05-13 05:18:42,605 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38491-1620857698479-0:1) is shutting down
+2021-05-13 05:18:42,629 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: peer (vm://localhost#1) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 05:18:42,648 INFO org.apache.activemq.broker.TransportConnector [ActiveMQ ShutdownHook] Connector vm://localhost stopped
+2021-05-13 05:18:42,649 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: vm://localhost#0] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:72)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1421)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:688)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:206)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1967)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72)
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132)
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1189)
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1155)
+	... 3 common frames omitted
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#1) stopped.
+	... 9 common frames omitted
+2021-05-13 05:18:42,661 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38491-1620857698479-0:1) uptime 3 minutes
+2021-05-13 05:18:42,662 INFO org.apache.activemq.broker.BrokerService [ActiveMQ ShutdownHook] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-38491-1620857698479-0:1) is shutdown
+2021-05-13 05:18:42,670 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:18:42,673 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:18:42,677 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 05:18:42,689 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 05:18:49,115 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 05:18:49,127 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 14067 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 05:18:49,142 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 05:18:51,022 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 05:18:51,123 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2021-05-13 05:18:52,280 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 05:18:52,301 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 05:18:52,303 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 05:18:52,304 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 05:18:52,432 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 05:18:52,432 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2992 ms
+2021-05-13 05:18:52,738 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 05:18:52,815 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 05:18:53,037 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 05:18:53,202 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 05:18:53,371 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 05:18:53,403 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 05:18:54,529 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 05:18:54,542 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:18:55,415 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 05:18:55,659 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:18:56,182 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 05:18:56,209 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 05:18:56,421 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 8.875 seconds (JVM running for 10.068)
+2021-05-13 05:19:01,423 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Could not refresh JMS Connection for destination 'MSGREGISTERED' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2021-05-13 05:19:06,426 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Could not refresh JMS Connection for destination 'MSGREGISTERED' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2021-05-13 05:19:11,428 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Could not refresh JMS Connection for destination 'MSGREGISTERED' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2021-05-13 05:20:22,101 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 05:20:22,102 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 05:20:22,105 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-13 05:20:22,540 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-2] Send message to +6282100998876 | Your number has been registered.
+2021-05-13 05:20:22,540 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 05:20:22,592 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 05:20:22,596 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-2] Send message to +6282100998878 | Your number has been registered.
+2021-05-13 05:20:22,616 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-2] Send message to +6282100998879 | Your number has been registered.
+2021-05-13 05:20:22,617 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 05:30:47,783 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:30:47,799 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:30:47,809 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-13 05:30:47,828 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-05-13 05:31:06,872 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-13 05:31:06,951 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimregistrationApplication using Java 11.0.11 on yoedi with PID 15247 (/home/yoedi/Documents/Workspaces/simregistration/target/classes started by yoedi in /home/yoedi/Documents/Workspaces/simregistration)
+2021-05-13 05:31:06,960 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 05:31:08,869 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 05:31:08,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2021-05-13 05:31:10,900 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-13 05:31:10,922 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-13 05:31:10,923 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-13 05:31:10,924 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 05:31:11,062 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 05:31:11,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3940 ms
+2021-05-13 05:31:11,402 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 05:31:11,508 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 05:31:11,739 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 05:31:11,939 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 05:31:12,138 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 05:31:12,181 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-05-13 05:31:13,362 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 05:31:13,375 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 05:31:14,085 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 05:31:14,271 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 05:31:14,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-13 05:31:14,644 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 05:31:14,807 INFO org.apache.activemq.broker.BrokerService [main] Using Persistence Adapter: MemoryPersistenceAdapter
+2021-05-13 05:31:14,961 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44415-1620858674827-0:1) is starting
+2021-05-13 05:31:14,966 INFO org.apache.activemq.broker.BrokerService [main] Apache ActiveMQ 5.16.1 (localhost, ID:yoedi-44415-1620858674827-0:1) started
+2021-05-13 05:31:14,966 INFO org.apache.activemq.broker.BrokerService [main] For help or more information please see: http://activemq.apache.org
+2021-05-13 05:31:14,996 INFO org.apache.activemq.broker.TransportConnector [main] Connector vm://localhost started
+2021-05-13 05:31:15,056 INFO org.springframework.boot.StartupInfoLogger [main] Started SimregistrationApplication in 10.177 seconds (JVM running for 11.658)
+2021-05-13 05:31:54,165 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 05:31:54,166 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-13 05:31:54,169 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2021-05-13 05:31:54,722 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998876,PREPAID,Lionel Messi,2021-05-11,M,Argentina Argentina sdfsdfsfsdfsdfsdfsdfsd,e21rr34t454yggert] Success
+2021-05-13 05:31:54,734 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998876 | Your number has been registered.
+2021-05-13 05:31:54,755 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998878 | Your number has been registered.
+2021-05-13 05:31:54,754 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998878,POSTPAID,Neymar,2002-02-02,F,Brazil Brazil sdfsdfsdfdsfsdf,e21rr34t454yggera] Success
+2021-05-13 05:31:54,768 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Data : [+6282100998879,PREPAID,Sergio Ramos,2003-03-03,M,Spain Spain fsdfsdfdfsf,e21rr34t454yggers] Success
+2021-05-13 05:31:54,769 INFO com.mobiletechnologies.simregistration.util.MessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Send message to +6282100998879 | Your number has been registered.
+2021-05-13 05:31:54,776 INFO com.mobiletechnologies.simregistration.controller.RegistrationController [http-nio-8080-exec-2] Time Elapsed = 506
